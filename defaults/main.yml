@@ -1,0 +1,3 @@
+---
+
+pip_cache_dir: "{{ ansible_env.HOME }}/.cache/pip"
