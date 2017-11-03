@@ -14,10 +14,21 @@ Role Variables
 Example Playbook
 ----------------
 
+### Standard playbook
+
 ```yaml
     - hosts: servers
       roles:
          - marcusianlevine.clean-container-cache
+```
+
+### Ansible Container `container.yml` service
+
+```yaml
+services:
+  myservice:
+    roles:
+      - marcusianlevine.clean-container-cache
 ```
 
 License
